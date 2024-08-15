@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Playwrite+RO:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    background-color: #032f44;
+    color: white;
+    padding: 5px;
+    text-align: center;
+  
+}
+
+header h1 {
+    font-family: "Playwrite RO", cursive;
+    font-size: 15px;
+}
+
+@media screen and (max-width:900px){
+    .artes,img{
+      width: 500%;
+      height: 300px;
+    }
+   .artes > .ok{
+      padding: 40px;
+      height: 90px;
+      font-size: 2rem;
+    }
+    
+  }
+/* Artes */
+
+  .artes, h3{
+    font-family: "Allura", cursive;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .artes .ok{
+    height: 330px;
+    padding: 10px;
+  } 
+
+  .artes,img{
+    width: 100%;
+    height: 300px;
+  }
+
+/*AGENDAMENTO E CONTATO*/
+
+@media  screen and (max-width:800px) {
+  
+  .agendamento > div > a > img {
+    width: 260px;
+    height: 300px;
+  }
+}
+.agendamento{
+ 
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  height: 300px;
+  cursor: pointer;
+
+}
+.agendamento > div >  a > img:hover{
+  transform: translate(-3px, -3px);
+}
+.agendamento > div > a > img{
+
+  flex: auto;
+  padding: 49px;
+  width: 170px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+
+
+
+
+.agendar h2{
+   font-family: "Allura", cursive;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.9rem;
+}
+.agendar img {
+    height: 350px;
+    padding: 55px;
+}
+
+@media screen and (max-width: 700px) {
+
+    .maps > div , iframe {
+     margin-right: 30px;
+    }
+    .maps > h2 {
+      font-size: 3rem;
+      text-align: center;
+    }
+    
+}
+.maps > h2 {
+  font-family: "Allura", cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.maps > div  iframe{
+  padding: 30px;
+  height: 350px;
+  width: 96%;
+  margin-left: 25px;
+} 
+
+
+
+
+.arruda {
+  background-color:#032f44 ;
+  padding: 150px;
+  text-align: center;
+}
+.gui img {
+  width: 5rem;
+  height: 4rem;
+  margin: 5px;
+  padding: 5px;
+  
+  border-radius: 100%;
+  box-sizing: border-box;   
+}
+.gui img:hover{
+  transform: translate(-3px, -3px);
+}
+
